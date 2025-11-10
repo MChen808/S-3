@@ -27,16 +27,16 @@ pip install -r requirements.txt
 
 ## 🔑 Usage
 
-Download data:
+#### 1. Download data:
 All datasets used are public on the internet for easy download.
 
-Prepare the brain decoder:
+#### 2. Prepare the brain decoder:
 Base weights of [*CBraMod*](https://github.com/wjq-learning/CBraMod) should be loaded for further finetuning.
 
-Process the data:
+#### 3. Process the data:
 Run scripts in `data_process/`.
 
-Run the main script:
+#### 4. Run the main script:
 ```bash
 python main.py  # train the SNN and the brain decoder iteratively
 python main.py --frozen_ann  # froze the brain decoder, train the SNN only
