@@ -1,9 +1,9 @@
-# [AAAI 2026] $\textbf{S}^\textbf{3}$: Spiking Neurons as an Isolating Segmenter for Brain Signal Decoding
+# [AAAI-2026] $\textbf{S}^\textbf{3}$: Spiking Neurons as an Isolating Segmenter for Brain Signal Decoding
 
 
 ## 🚀 Introduction
 
-This repository accompanies the paper [*$\textbf{S}^\textbf{3}$: Spiking Neurons as an Isolating Segmenter for Brain Signal Decoding*](https://openreview.net/forum?id=H1YQhkfqfp).
+This repository accompanies the [AAAI-2026 paper](https://openreview.net/forum?id=H1YQhkfqfp).
 <img src="./readme_img/method.jpg" width="100%" style="display: block; margin: 0 auto;">
 
 Here, we leverage **spiking neurons** as an isolating segmenter for brain signal decoding. This segmenter considers subject- and task-level variability, thus providing adaptive segmentation for different brain signals. Most importantly, it exploits the unique **reset mechanism** of spiking neurons to enforce temporal pattern isolation for the generation of each segmentation point.
