@@ -7,6 +7,7 @@ This repository accompanies the paper [*$\textbf{S}^\textbf{3}$: Spiking Neurons
 <img src="./readme_img/method.jpg" width="100%" style="display: block; margin: 0 auto;">
 
 Here, we leverage **spiking neurons** as an isolating segmenter for brain signal decoding. This segmenter considers subject- and task-level variability, thus providing adaptive segmentation for different brain signals. Most importantly, it exploits the unique **reset mechanism** of spiking neurons to enforce temporal pattern isolation for the generation of each segmentation point.
+
 <img src="./readme_img/first_figure.jpg" width="60%" style="display: block; margin: 0 auto;">
 
 
