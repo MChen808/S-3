@@ -19,7 +19,7 @@ Key packages:
 - spikingjelly==0.0.0.0.14
 
 You may install the required packages by:
-```bash
+```commandline
 pip install -r requirements.txt
 ```
 
@@ -37,7 +37,7 @@ Base weights of [*CBraMod*](https://github.com/wjq-learning/CBraMod) should be l
 Run scripts in `data_process/`.
 
 #### 4. Run the main script:
-```bash
+```commandline
 python main.py  # train the SNN and the brain decoder iteratively
 python main.py --frozen_ann  # froze the brain decoder, train the SNN only
 python main.py --frozen_snn  # froze the SNN, train the brain decoder only
@@ -49,7 +49,7 @@ python main.py --eval  # froze both the SNN and the brain decoder, for evaluatio
 ## 📄 Citation
 
 If you find this code helpful, we would appreciate it if you cite our paper:
-```bash
+```bibtex
 @inproceedings{zheng2026s3,
     title = {S³: {Spiking} {Neurons} as an {Isolating} {Segmenter} for {Brain} {Signal} {Decoding}},
     author = {Zheng, Qian and Chen, Ming and Zhao, Sha and Gu, Shi and Lin, Peng and Ma, De and Tang, Huajin and Pan, Gang},
