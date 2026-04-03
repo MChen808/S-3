@@ -3,7 +3,7 @@
 
 ## 🚀 Introduction
 
-This repository accompanies the [AAAI-2026 paper](https://openreview.net/forum?id=H1YQhkfqfp).
+This repository accompanies the [AAAI-2026 paper](https://ojs.aaai.org/index.php/AAAI/article/view/38869).
 <img src="./readme_img/method.jpg" width="100%" style="display: block; margin: 0 auto;">
 
 Here, we leverage **spiking neurons** as an isolating segmenter for brain signal decoding. This segmenter considers subject- and task-level variability, thus providing adaptive segmentation for different brain signals. Most importantly, it exploits the unique **reset mechanism** of spiking neurons to enforce temporal pattern isolation for the generation of each segmentation point.
@@ -49,3 +49,12 @@ python main.py --eval  # froze both the SNN and the brain decoder, for evaluatio
 ## 📄 Citation
 
 If you find this code helpful, we would appreciate it if you cite our paper:
+```bash
+@inproceedings{zheng2026s3,
+    title = {S³: {Spiking} {Neurons} as an {Isolating} {Segmenter} for {Brain} {Signal} {Decoding}},
+    author = {Zheng, Qian and Chen, Ming and Zhao, Sha and Gu, Shi and Lin, Peng and Ma, De and Tang, Huajin and Pan, Gang},
+    booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+    year={2026},
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/38869}
+}
+```
